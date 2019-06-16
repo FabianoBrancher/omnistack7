@@ -12,6 +12,7 @@ export default createAppContainer(
         Feed,
         New
     }, {
+            // defaultNavigationOptions se aplica para todas as telas
             defaultNavigationOptions: {
                 headerTintColor: '#000',
                 headerTitle: <Image style={{ marginHorizontal: 20 }} source={logo} />,
